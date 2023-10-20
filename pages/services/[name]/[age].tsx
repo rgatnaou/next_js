@@ -1,6 +1,6 @@
 import { useRouter} from 'next/router'
 
-export default function Carid() {
+export default function Carid() :JSX.Element {
     const router = useRouter();
     return(
         <>

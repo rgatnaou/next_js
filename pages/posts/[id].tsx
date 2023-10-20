@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 
-export default function Post(parms) {
+export default function Post():JSX.Element {
     const router = useRouter();
     /**
      * Destructures the `id` property from the `router.query` object.
